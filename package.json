@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kimchangho",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongojs": "^3.1.0",
-    "mongoose": "^5.9.20"
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4"
   }
 }

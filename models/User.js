@@ -28,6 +28,6 @@ const userSchema = mongoose.Schema({
 //스케마는 데이터의 형태를 잡아주는거다.
 
 //모델만들기
-const user = mongoose.model("User",userSchema);
+const User = mongoose.model("User",userSchema);
 
-module.exports = {user} //모델을 다른곳에서도 쓸수있게 해주자.
+module.exports = {User} //모델을 다른곳에서도 쓸수있게 해주자.
